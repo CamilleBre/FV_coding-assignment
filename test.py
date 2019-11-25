@@ -8,8 +8,10 @@ Created on Mon Nov 25 14:05:39 2019
 @author: camille
 """
 
+# Import packages 
 import json
 
+# Import the class Database
 from database import Database
 
 
@@ -17,13 +19,9 @@ from database import Database
 ## Test on a basic dataset
 
 build = [("core", None), ("A", "core"), ("B", "core"), ("C", "core"), ("C1", "C")]
-
 extract = {"img001": ["A", "B"], "img002": ["A", "C1"]}
-
 edits = [("B1", "B"), ("C2", "C")]
-
 extract2 = {"img003": ["A", "C1"], "img004": ["B"]}
-
 edits2 =[ ("C3", "C")]
 
 # Create a Database initialized with graph = build to test the constructor
