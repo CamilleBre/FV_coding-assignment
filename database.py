@@ -11,7 +11,7 @@ from collections import defaultdict
 
 class Database(object):
     """    
-    This is a class for data structure relevant for food classification.
+    This is a class for a data structure relevant for food classification.
       
     Attributes: 
         graph (list): A list of tuples (child_node,parent_node) defining a graph stucture. 
@@ -157,7 +157,6 @@ class Database(object):
                     else: status[key]= "valid"
             
         print(status)
-        
         return(status)
 
       
