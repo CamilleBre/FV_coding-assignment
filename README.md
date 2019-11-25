@@ -6,7 +6,7 @@ This repository provide a class Database (database.py), which is a data structur
 * Python 3 
 
 # Usage 
-Run the script test.py to evaluate the class Database. 
+Clone the repository and run the script test.py to evaluate the class Database. 
 
 # Credits 
 This repository is a submission for [Foodvisor coding assignement](https://github.com/Foodvisor/coding-assignment.git) 
